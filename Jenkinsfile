@@ -3,7 +3,7 @@ pipeline {
     environment {
         DOCKER_CREDENTIALS_ID = 'docker_credentials'
         DOCKER_IMAGE_NAME = 'shazly3/webapp'
-        ANSIBLE_INVENTORY = '/home/ec2-user/' // Update this path
+        //ANSIBLE_INVENTORY = '/home/ec2-user/' // Update this path
     }
     stages {
         stage('Checkout Code') {
